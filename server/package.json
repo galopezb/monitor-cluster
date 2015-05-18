@@ -1,0 +1,9 @@
+{
+  "name": "electron-demo",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "smoothie": "^1.27.0",
+    "standard": "^3.8.0"
+  }
+}
