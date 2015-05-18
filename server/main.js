@@ -59,6 +59,9 @@ app.on('ready', function() {
     else if (idHost === "COMPUTADOR-02") {
       mainWindow.webContents.send('datagram-h2', "" + message);
     }
+    else if (idHost === "COMPUTADOR-03") {
+      mainWindow.webContents.send('datagram-h3', "" + message);
+    }
 	  // });
   });
 
