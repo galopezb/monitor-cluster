@@ -2,5 +2,7 @@ host1/Vagrantfile
 host2/Vagrantfile
 host1/.vagrant/
 host2/.vagrant/
+host3/Vagrantfile
+host3/.vagrant/
 server/node_modules
 
