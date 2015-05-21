@@ -1,11 +1,3 @@
-// angular
-//   .module('monitorClusterApp', [])
-//   .controller('MonitorCtrl', function () {
-
-//     var monitorCtrl = this;
-//     monitorCtrl.currentHost = '';
-//   });
-
 var app = require('app'); // Module to control application life.
 var BrowserWindow = require('browser-window');
 
