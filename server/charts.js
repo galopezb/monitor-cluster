@@ -40,9 +40,8 @@
     line2.append(new Date().getTime(), 0);
     line3.append(new Date().getTime(), 100);
   
-    var idHost = metrics[2];
-    console.log(idHost);
-    document.getElementById('host1-title').innerHTML = idHost;
+    var nameHost = metrics[3];
+    document.getElementById('host1-title').innerHTML = nameHost;
   });  
 }());
 
@@ -90,9 +89,8 @@
     line2.append(new Date().getTime(), 0);
     line3.append(new Date().getTime(), 100);
   
-    var idHost = metrics[2];
-    console.log(idHost);
-    document.getElementById('host2-title').innerHTML = idHost;
+    var nameHost = metrics[3];
+    document.getElementById('host2-title').innerHTML = nameHost;
   });  
 }());
 
@@ -141,9 +139,8 @@
     line2.append(new Date().getTime(), 0);
     line3.append(new Date().getTime(), 100);
   
-    var idHost = metrics[2];
-    console.log(idHost);
-    document.getElementById('host3-title').innerHTML = idHost;
+    var nameHost = metrics[3];
+    document.getElementById('host3-title').innerHTML = nameHost;
   });  
 }());
 

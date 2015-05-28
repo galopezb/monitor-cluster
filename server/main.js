@@ -44,14 +44,13 @@ app.on('ready', function() {
 	  // mainWindow.webContents.on('did-finish-load', function() {
     var metrics = message.toString().split(";");
     var idHost = metrics[2];
-    console.log("Identificador del host es: " + idHost);
-    if (idHost === "COMPUTADOR-01") {
+    if (idHost === "1") {
 	    mainWindow.webContents.send('datagram-h1', "" + message);
     }
-    else if (idHost === "COMPUTADOR-02") {
+    else if (idHost === "2") {
       mainWindow.webContents.send('datagram-h2', "" + message);
     }
-    else if (idHost === "COMPUTADOR-03") {
+    else if (idHost === "3") {
       mainWindow.webContents.send('datagram-h3', "" + message);
     }
 	  // });
